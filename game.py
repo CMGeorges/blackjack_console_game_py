@@ -1,6 +1,5 @@
 
 import random
-from collections import namedtuple
 
 # Define card suits and values (assuming single deck)
 suits = ("Spades", "Hearts", "Diamonds", "Clubs")
