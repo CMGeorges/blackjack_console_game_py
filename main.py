@@ -7,6 +7,24 @@ suits = ("Spades", "Hearts", "Diamonds", "Clubs")
 values = ("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
 card_value = {"A": 11, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10, "J": 10, "Q": 10, "K": 10}
 
+# Function to print the banner
+def display_banner():
+  """Prints a banner that says 'Welcome to Blackjack!' decorated with asterisks."""
+  num_asterisks = 25  # Adjust the number of asterisks as needed
+  print("*" * num_asterisks)
+  print("Welcome to Blackjack!")
+  print("""
+******  **  ******  ********  **   **  **** ****** ******* **   **
+**  **  **  **  **  *******   *** **   **** **  ** ******  *** ** 
+**  *   **  **  **  ***       *****     **  **  ** ***     *****
+*****   **  ******  **        ****      **  ****** **      ****
+**  *   **  **  **  **        ** **     **  **  ** **      ** **
+**  **  **  **  **  **        **  **    **  **  ** **      **  **
+**  **  **  **  **  *******   **  **  ****  **  ** ******  **  **
+******  **  **  **  ********  **  **  ****  **  ** ******* **  **                                 
+""")
+  print("*" * num_asterisks) 
+
 # Function to create a deck of cards
 def create_deck():
   deck = []
@@ -108,6 +126,9 @@ def play_blackjack():
   elif player_total == dealer_total:
     print("Push!")
 
+
+#Show the banner
+display_banner()
 
 # Start the game
 play_blackjack()
