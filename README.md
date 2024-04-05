@@ -1,6 +1,6 @@
 # Blackjack in Python
 
-![Blackjack Game GIF: GIF_PLACEHOLDER](./blackjack.gif) This Python program lets you play a classic Blackjack game against the dealer. It provides a basic simulation with clear instructions and informative messages.
+![Blackjack Game GIF: ./blackjack.gif](./blackjack.gif) This Python program lets you play a classic Blackjack game against the dealer. It provides a basic simulation with clear instructions and informative messages.
 
 **Features:**
 
@@ -10,7 +10,7 @@
 
 **How to Play:**
 
-1. **Run the program:** Save the Python code as `blackjack.py` and execute it from your terminal using `python blackjack.py`.
+1. **Run the program:** Save the Python code as `game.py` and execute it from your terminal using `python game.py`.
 2. **Follow the prompts:** The game will guide you through placing bets (optional), receiving cards, and making decisions on whether to hit or stand.
 3. **Aim for 21:** Get your hand total as close to 21 as possible without exceeding it (busting).
 
