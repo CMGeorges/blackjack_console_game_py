@@ -1,6 +1,6 @@
 # Blackjack in Python
 
-[Blackjack Game GIF: GIF_PLACEHOLDER](https://drive.google.com/uc?id=15iXCf9KUW1qlfClOm-il84T1B9zWK-Co&export=download) This Python program lets you play a classic Blackjack game against the dealer. It provides a basic simulation with clear instructions and informative messages.
+![Blackjack Game GIF: GIF_PLACEHOLDER](https://drive.google.com/uc?id=15iXCf9KUW1qlfClOm-il84T1B9zWK-Co&export=download) This Python program lets you play a classic Blackjack game against the dealer. It provides a basic simulation with clear instructions and informative messages.
 
 **Features:**
 
